@@ -28,7 +28,12 @@ SECRET_KEY = 'django-insecure-dur%0#b!tw@=e2b8yf0_3&dj0_cv=o6f3qe$)qm2l9vs%9^&ei
 DEBUG = True
 
 
-
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:8000',
+    'http://127.0.0.1:8000',
+    'https://test2-six-indol.vercel.app'
+    # Ajoutez ici d'autres origines autorisées
+]
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]','.vercel.app']
 
